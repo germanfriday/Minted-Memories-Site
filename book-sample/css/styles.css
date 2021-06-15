@@ -1,0 +1,65 @@
+html, body{
+        padding: 0px;
+        margin: 0px;
+		background-color: #cccccc;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		color: #FFFFFF;
+		font-weight: bold;
+}
+
+
+#fbFooter {
+	height: 49px;
+	background-color: #000000;
+	background-image: url('../img/footerBackground.gif');
+	background-repeat: repeat-x;
+}
+
+#fbFooter p {
+	position: absolute;
+	margin: 10px 35% 0;
+	width: 300px;
+	text-align: center;
+	}
+
+.fbPaginationMinor {
+	color: #997C66;
+	margin-left: 10px;
+}
+
+#fbContents {
+	float: left;
+	margin-top: 17px;
+	margin-left: 15px;	
+}
+
+#fbMenu {
+	float: right;
+	margin-top: 9px;
+	margin-right: 15px;
+}
+
+#altmsg { 
+	position: absolute;
+	background-color:#000000;
+	padding: 20px;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	text-align:center;
+}
+#altmsg:hover { 
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+a.altlink:link {
+	color: #FFFFFF;
+}
+
+a.altlink:visited {
+	color: #cccccc;
+}
+
+a.altlink:hover{
+	color: #FFFFFF;
+}
